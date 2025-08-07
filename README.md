@@ -75,6 +75,8 @@ This is my personal learning hub for becoming a production-ready AI Engineer, fo
 - 💡 [AI Startup Ideas](./top100.md)
 - 📚 [ML/LLM Fundamentals](./info.md)
 - 🎯 [Repository Strategy](./REPO_STRATEGY.md)
+- 📚 [AI/ML Research Glossary](./learning/notes/concepts/ai_ml_research_glossary.md)
+- ⚡ [AI/ML Topics TL;DR](./learning/notes/concepts/ai_ml_topics_tldr.md)
 
 ## 💰 Resource Management
 
