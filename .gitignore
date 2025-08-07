@@ -1,0 +1,134 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ML/Data Science
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.pth
+*.pt
+*.onnx
+*.tflite
+data/raw/*
+data/processed/*
+models/checkpoints/*
+models/experiments/*
+*.csv
+*.parquet
+!data/sample/*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cloud Credentials (CRITICAL!)
+*.json
+!package.json
+!tsconfig.json
+*.pem
+*.key
+*.p12
+*.pfx
+credentials/
+secrets/
+.aws/
+.gcp/
+.azure/
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Large files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.weights
+*.safetensors
+
+# Temporary files
+tmp/
+temp/
+cache/
+.cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Node (for web projects)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment specific
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS files
+Thumbs.db
+.DS_Store
+.directory
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Docker
+*.dockerfile.swp
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Custom - keep private notes separate
+private/
+personal_notes/
+draft/
+scratch/
+
+# Keep example configs
+!config.example.yaml
+!.env.example
